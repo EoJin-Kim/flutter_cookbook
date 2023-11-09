@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animated_container/my_animated_container.dart';
 import 'package:flutter_animated_container/my_animated_opacity.dart';
 import 'package:flutter_animated_container/my_drawer.dart';
+import 'package:flutter_animated_container/my_from_validation.dart';
 import 'package:flutter_animated_container/my_orientation_builder.dart';
 import 'package:flutter_animated_container/my_snackbar.dart';
+import 'package:flutter_animated_container/my_swipe_to_dissmiss.dart';
 import 'package:flutter_animated_container/my_tab_controller.dart';
 
 void main() {
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyTabController(),
+      home: MySwipeToDismiss(),
     );
   }
 }
